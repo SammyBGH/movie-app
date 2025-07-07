@@ -1,0 +1,24 @@
+.footer {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: linear-gradient(to right, #1a001f, #2b0040);
+  color: #e0d6ff;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  box-sizing: border-box;
+  border-top: 1px solid #3d1a5e;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 640px) {
+  .footer {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+}
